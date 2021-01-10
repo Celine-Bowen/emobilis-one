@@ -244,10 +244,11 @@ section{
     width: 100%;
     left: -100;
     top: 0;
-    background: #111;
+    background:#111;
     text-align: center;
     padding-top: 80px;
     transition: all 0.3s ease ;
+
 }
 .navbar .menu.active{
 left: 0;
@@ -258,7 +259,7 @@ left: 0;
 .navbar .menu li a{
     display: inline-block;
     margin: 20px;
-    font-size: 25px;
+    font-size: 50px;
 }
 .home .home-content .text-2{
     font-size: 70px;
