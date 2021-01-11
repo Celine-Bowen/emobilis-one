@@ -548,11 +548,12 @@ footer span a:hover{
 }
 
 @media(max-width:947px){
-    
-    .menu-btn{
-        display: block;
-        z-index: 999;
-        
+    .max-width{
+        padding: 0 50px;
+    }
+      .menu-btn{
+          display: block;
+          z-index: 999;
     }
 
     .menu-btn i.active:before{
@@ -563,28 +564,26 @@ footer span a:hover{
         position: fixed;
         height: 100vh;
         width: 100%;
-        left: -100;
-        background: transparent;
+        left: -100%;
+        background: #111;
         top: 0;
         text-align: center;
         padding-top: 80px;
-        transition: all 0.3s ease ;
-        
-    }
-.navbar .menu.active{
-    background: #111;
-    left: 0;
-    
+        transition: all 0.3s ease ;   
 }
-.navbar .menu li{  
-    display:block;
-
+    .navbar .menu.active{
+        left: 0;
+    }
+    
+.navbar .menu li{
+    display: block;
 }
 .navbar .menu li a{
     display: inline-block;
     margin: 20px 0;
     font-size: 20px;
 }
+
 .home .home-content .text-2{
     font-size: 70px;
 }
